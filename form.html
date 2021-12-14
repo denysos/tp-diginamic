@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les formulaires</title>
+</head>
+<body>
+  <h1>Contactez nous</h1>
+  <form action="form.html" method="Post">
+    <label for="nom">Nom : </label>
+    <input type="text" name="nom" id="nom"> 
+    <label for="prenom">Prenom</label>
+    <input type="text" name="prenom" id="prenom">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Saisir email">
+    <br>
+
+    <label for="pays">Pays : </label>
+    <select name="pays" id="pays">
+      <option value="France">France</option>
+      <option value="Espagne">Espagne</option>
+      <option value="Bulgarie">Bulgarie</option>
+    </select>
+
+    <fieldset>
+      <legend>Souhaitez-vous vous inscrire à la newsletter ?</legend>
+      <div>
+        <input type="radio" name="annuaire" id="oui"> 
+        <label for="oui">Oui</label>
+      </div>
+      <div>
+        <input type="radio" name="annuaire" id="non"> 
+        <label for="non">Non</label>
+      </div>
+    </fieldset>
+
+    <input type="reset" value="Effacer">
+    <button type="submit">Envoyer</button>
+    <button type="button">Calculer</button>
+    <input type="submit" value="Valider">
+
+  </form>
+</body>
+</html>
