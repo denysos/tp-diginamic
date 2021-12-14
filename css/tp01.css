@@ -1,0 +1,28 @@
+h1, th{
+  color:white;
+  background-color: rgb(0, 6, 125);
+  text-align: center;
+}
+
+h1{
+  border-radius: 10px;
+}
+
+table, tr, td, th{
+  border: solid black 1px;
+}
+
+tr:nth-child(odd){
+  background-color: rgba(128, 128, 128, 0.551);
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.text-right{
+  text-align: right;
+}
+.pays{
+  width: 50%;
+}
