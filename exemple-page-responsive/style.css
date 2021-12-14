@@ -1,0 +1,195 @@
+/* https://www.color-hex.com/color-palette/1405 */
+
+html{
+    font-size:80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+body{
+    background-color: #0e1111;
+    color: white;
+    padding:0;
+    margin:0;
+}
+
+section{
+    padding: 1em 0;
+}
+
+.container{
+    margin: 0 5%;
+}
+
+
+header{
+    background-color:rgba(8, 8, 8, 0.9);
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+#slogan{
+    background-image: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=58ecb1b1731968ec6f31354702067651&auto=format&fit=crop&w=1650&q=80);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+#slogan div{
+    align-self: center;
+}
+.logo{
+    height: 4.5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 1rem;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 2em 1em;
+}
+
+.films{
+    display: flex;
+    justify-content: space-between;
+}
+
+.films h3{
+    text-align: center;
+}
+
+figure{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.films figcaption{
+    height: 20rem;
+    overflow: auto;
+}
+
+#info-pratiques{
+    background-color: #414a4c;
+}
+
+.infos{
+    display: flex;
+    text-align: center;
+}
+.avantages{
+    width:50%;
+}
+.tarif{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarif table{
+    border-collapse: collapse;
+}
+
+.tarif th{
+    background-color: #0e1111;
+}
+
+.infos h3{
+    text-align: center;
+}
+
+.soft-black{
+    background-color: #232b2b !important;
+}
+
+.light-black{
+    background-color: #3b444b !important;
+}
+
+.very-light-black, nav ul li a:hover{
+    background-color: #414a4c;
+}
+
+iframe{
+    border: none;
+    height: 30em;
+    width:100%;
+}
+
+#adresse .container{
+    display:flex;
+}
+
+#adresse h2{
+    margin-bottom: inherit;
+}
+
+#map{
+    width: 45%;
+    margin-right: 5%;
+}
+
+#adresse-postale{
+    width:50%;
+}
+
+#contact div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#contact form input, #contact button{
+    width:100%;
+    margin: 1rem 0;
+    height: 2rem;
+}
+
+footer{
+    padding: 1rem;
+    text-align: center;
+}
+
+@media all and (max-width:1024px){
+ 
+    .films, .infos, #adresse .container{
+        flex-direction: column;
+    }
+
+    figure, .avantages, .tarif, #map, #adresse-postale{
+        width: 100%;
+    }
+
+    #adresse-postale{
+        text-align: center;
+    }
+}

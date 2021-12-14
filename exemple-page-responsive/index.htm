@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>An Amazing theater</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="data:image/png;base64,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"
+            alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#slogan">Accueil</a></li>
+                    <li><a href="#liste-affiches">Films à l'affiche</a></li>
+                    <li><a href="#info-pratiques">Informations pratiques</a></li>
+                    <li><a href="#adresse">Où est-ce ?</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="slogan">
+        <div>
+            <h1>Cinémax : Le meilleur du cinéma</h1>
+        </div>
+    </section>
+    <section id="liste-affiches" class="container">
+        <h2>Les films à l'affiche</h2>
+        <div class="films">
+            <figure>
+                <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/18/09/12/11/16/3103616.jpg" alt="Homme sur la lune">
+                <figcaption>
+                    <h3>FIRST MAN - LE PREMIER HOMME SUR LA LUNE</h3>
+                    <p>Pilote jugé « un peu distrait » par ses supérieurs en 1961, Neil Armstrong sera, le 21 juillet
+                        1969, le premier homme à marcher sur la lune. Durant huit ans, il subit un entraînement de plus
+                        en plus difficile, assumant courageusement tous les risques d’un voyage vers l’inconnu total.
+                        Meurtri par des épreuves personnelles qui laissent des traces indélébiles, Armstrong tente
+                        d’être un mari aimant auprès d’une femme qui l’avait épousé en espérant une vie normale.</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/95/04/04/20535567.jpg" alt="Star Trek">
+                <figcaption>
+                    <h3>STAR TREK INTO DARKNESS</h3>
+                    <p>Alors qu’il rentre à sa base, l’équipage de l’Enterprise doit faire face à des forces
+                        terroristes implacables au sein même de son organisation. L’ennemi a fait exploser la flotte et
+                        tout ce qu’elle représentait, plongeant notre monde dans le chaos…
+                        Dans un monde en guerre, le Capitaine Kirk, animé par la vengeance, se lance dans une véritable
+                        chasse à l’homme, pour neutraliser celui qui représente à lui seul une arme de destruction
+                        massive.
+                        Nos héros entrent dans un jeu d’échecs mortel. L’amour sera menacé, des amitiés seront brisées
+                        et des sacrifices devront être faits dans la seule famille qu’il reste à Kirk : son équipe.</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/18/09/25/14/20/0923171.jpg" alt="A star is born">
+                <figcaption>
+                    <h3>A STAR IS BORN</h3>
+                    <p>Star de country un peu oubliée, Jackson Maine découvre Ally, une jeune chanteuse très
+                        prometteuse.
+                        Tandis qu'ils tombent follement amoureux l'un de l'autre, Jack propulse Ally sur le devant de
+                        la
+                        scène et fait d'elle une artiste adulée par le public. Bientôt éclipsé par le succès de la
+                        jeune
+                        femme, il vit de plus en plus de mal son propre déclin…</p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </section>
+    <section id="info-pratiques">
+        <div class="container">
+            <h2>Les infos pratiques</h2>
+            <div class="infos">
+                <div class="avantages">
+                    <h3>Avantages cinéma</h3>
+                    <ol>
+                        <li>Salles climatisées</li>
+                        <li>Toutes les salles sont en IMAX</li>
+                        <li>Son Dolby Atmos</li>
+                    </ol>
+                </div>
+                <div class="tarif">
+                    <h3>Les tarifs</h3>
+                    <table>
+                        <tr>
+                            <td></td>
+                            <th colspan="2">Lundi au vendredi</th>
+                            <th rowspan="2">Week-end</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th class="soft-black">De 9h à 18h</th>
+                            <th class="soft-black">Soirée</th>
+                        </tr>
+                        <tr>
+                            <th class="soft-black">-14 ans</th>
+                            <td>5 €</td>
+                            <td>6 €</td>
+                            <td>6€</td>
+                        </tr>
+                        <tr class="light-black">
+                            <th class="light-black">Plein tarif</th>
+                            <td>10 €</td>
+                            <td>12 €</td>
+                            <td>12,50 €</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="adresse" class="light-black">
+        <h2 class="container">Retrouvez nous</h2>
+        <div class="container">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.014589732902!2d3.807809515315612!3d43.62705527912224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ade02bcc02cf%3A0xa9a16f796a103a57!2s1112+All%C3%A9e+des+Thermes%2C+34990+Juvignac!5e0!3m2!1sfr!2sfr!4v1541411419575"
+                    allowfullscreen></iframe>
+            </div>
+            <div id="adresse-postale">
+                <h3>Adresse</h3>
+                <h4>Cinémax</h4>
+                <p>1112 allées des thermes</p>
+                <p>34 990 Juvignac</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="very-light-black">
+        <h2 class="container">Restons en contact</h2>
+        <div>
+            <form class="container">
+                    <div>
+                        <input type="text" name="nom" placeholder="Nom">
+                        <input type="text" name="prenom" placeholder="Prénom">
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="E-mail">
+                        <input type="tel" name="Telephone" placeholder="Téléphone">
+                    </div>
+                    <div>
+                        <input type="text" name="sujet" placeholder="Sujet">
+                    </div>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Envoyer">
+                </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            Mentions légales - Copyright Jonathan Guerino 2018
+        </div>
+    </footer>
+</body>
+
+</html>
