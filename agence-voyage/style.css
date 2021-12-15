@@ -1,3 +1,8 @@
+body{
+  background-image: linear-gradient(to right bottom, #e2e2e2, #dbc5d5, #e1a4ad, #d58c70, #a78332);
+  min-height: 100vh;
+}
+
 .carousel img{
   height:600px;
   object-fit: cover;
